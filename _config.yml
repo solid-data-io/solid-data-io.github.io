@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: DS Box
-email: info@dsbox.co
+title: Solid Data
+email: info@solid-data.io
 description: >- # this means to ignore newlines until "baseurl:"
-  DS Box specializes in full service solutions for Big Data, Machine Learning & Artificial Intelligence problems. We leverage our experience to work on problems pertinent to Digital Marketing, Text Processing, Optimization & Big Data Architecture (Spark, Hadoop, AWS, Azure, GCP)
+  Solid Data specializes in full service solutions for Big Data, Machine Learning & Artificial Intelligence problems. We leverage our experience to work on problems pertinent to Digital Marketing, Text Processing, Optimization & Big Data Architecture (Spark, Hadoop, AWS, Azure, GCP)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -34,7 +34,7 @@ sass: # Enables the conversion of css/agency.min.scss to  css/agency.min.css
 owner:
 facebook_username:
 twitter_username: uhoh
-github_username: dsbox-co
+github_username: solid-data-io
 address:
   - line:
   - line:
