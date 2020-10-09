@@ -1,0 +1,27 @@
+<footer id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+                <!-- 
+        <h4><strong>{{ site.owner }}</strong>
+        </h4>
+        <p>
+          {% for address in site.address %}
+          {{ address.line }}<br>
+          {% endfor %}
+        </p>
+          <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li> 
+
+        -->
+        <ul class="list-unstyled">
+          <li><h3><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          <h3></li> 
+        </ul>
+        <br>
+       
+        <hr class="small">
+        <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+      </div>
+    </div>
+  </div>
+</footer>

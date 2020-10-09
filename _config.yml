@@ -1,0 +1,55 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: DS Box
+email: info@dsbox.co
+description: >- # this means to ignore newlines until "baseurl:"
+  DS Box specializes in full service solutions for Big Data, Machine Learning & Artificial Intelligence problems. We leverage our experience to work on problems pertinent to Digital Marketing, Text Processing, Optimization & Big Data Architecture (Spark, Hadoop, AWS, Azure, GCP)
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Build settings
+markdown: kramdown
+remote_theme: stylish-portfolio-jekyll
+plugins:
+  - jekyll-feed
+
+sass: # Enables the conversion of css/agency.min.scss to  css/agency.min.css
+  style: compressed # Minify css/agency.min.css
+
+# User setting
+owner:
+facebook_username:
+twitter_username: uhoh
+github_username: dsbox-co
+address:
+  - line:
+  - line:
+  # Feel free to add more lines here 
+telephone: 
+copyright: 
+time: 2018-05-01
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
